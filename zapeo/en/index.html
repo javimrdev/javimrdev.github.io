@@ -67,7 +67,7 @@ a{color:var(--link)}.muted{color:var(--muted)}
 <h3>f) Usage statistics and error reports (Android app)</h3>
 <p>If <strong>Settings → Privacy → Share usage statistics</strong> is on (it is by default), the Android app sends to <strong>Google Firebase</strong>:</p>
 <ul>
-<li><strong>Usage statistics (Firebase Analytics):</strong> app opens, sessions, screens visited and general actions, such as starting playback (live, movie or episode), changing channels, opening multiview, adding a provider (M3U or Xtream), searching (only how many results there were, not what you searched for) or opening and buying the subscription. Along with them, the app sends a Firebase installation identifier, the device model, the operating system, the language, the approximate country derived from the IP address and, if you consent to storage on your device, the advertising identifier.</li>
+<li><strong>Usage statistics (Firebase Analytics):</strong> app opens, sessions, screens visited and general actions, such as starting playback (live, movie or episode), changing channels, opening multiview, adding a provider (M3U or Xtream), searching (only how many results there were, not what you searched for) or opening and buying the subscription. Along with them, the app sends a Firebase installation identifier, the device model, the operating system, the language and the approximate country derived from the IP address. Usage statistics do not include the device's advertising identifier.</li>
 <li><strong>Error reports (Firebase Crashlytics):</strong> when the app crashes or logs an error, it sends a technical report with the error trace, the app version and device details. Before it is sent, paths, parameters and credentials are removed from any address: at most, your provider's server name remains.</li>
 </ul>
 <p><strong>We never send</strong> your usernames or passwords, the full addresses of your lists or streams, what you search for, or the names of channels, movies, series or providers, and we do not link you to any personal identifier. We use this data only to learn which features are used and to fix bugs. The iOS app does not send usage statistics or error reports.</p>
@@ -77,7 +77,7 @@ a{color:var(--link)}.muted{color:var(--muted)}
 
 <h2>4. Legal basis</h2>
 <ul>
-<li><strong>Consent</strong> (GDPR Art. 6(1)(a)) for storing and accessing information on your device and for personalized ads, and for usage statistics in the Android app.</li>
+<li><strong>Consent</strong> (GDPR Art. 6(1)(a)) for storing and accessing information on your device and for personalized ads, and, in the European Economic Area, the United Kingdom and Switzerland, for usage statistics in the Android app.</li>
 <li><strong>Legitimate interest</strong> (Art. 6(1)(f)) for non-personalized ads, measurement and fraud prevention, within the limits set by law, and for error reports in the Android app, which help us keep it stable. You can object by turning off <strong>Share usage statistics</strong>.</li>
 <li><strong>Performance of a contract</strong> (Art. 6(1)(b)) to check and maintain your “Zapeo without ads” subscription.</li>
 <li><strong>Providing the service</strong> for data processed locally so the app works.</li>
@@ -91,7 +91,7 @@ a{color:var(--link)}.muted{color:var(--muted)}
 <li>You can change your decision at any time in <strong>Settings → Privacy → Privacy options</strong>.</li>
 <li>You can also reset or limit your advertising ID in Android settings (Settings → Google → Ads).</li>
 </ul>
-<p>In the Android app you can stop sharing usage statistics and error reports at any time in <strong>Settings → Privacy → Share usage statistics</strong>. The change applies immediately and reports not yet sent are deleted. In the European Economic Area, the United Kingdom and Switzerland, usage statistics also need your consent in the Google form; if you have the subscription and have never answered that form, they are not sent.</p>
+<p>In the Android app you can stop sharing usage statistics and error reports at any time in <strong>Settings → Privacy → Share usage statistics</strong>. The change applies immediately and reports not yet sent are deleted. In the European Economic Area, the United Kingdom and Switzerland, usage statistics also need your consent in the Google form; if you have the subscription and have never answered that form, they are not sent. Outside those regions the form is not shown: usage statistics and error reports are sent while the switch is on, and you can turn it off at any time.</p>
 
 <h2>6. Recipients and international transfers</h2>
 <p>Advertising data is processed by Google LLC and its advertising partners, which may be located outside the EEA. Google applies safeguards such as standard contractual clauses. Usage statistics and error reports are processed by Google LLC (Firebase) as a data processor, with the same safeguards. Subscription payment data is processed by Google (Google Play) or Apple (App Store), which handle the sale. We do not sell your data or share it with any other third parties.</p>
